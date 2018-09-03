@@ -1,0 +1,25 @@
+#register span {
+	font-size: 15vh;
+}
+
+#loginlink {
+    float: none;
+    background-color: transparent;
+}
+
+#loginlink:hover {
+    color: gold;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: transparent;
+}
+
+.Register-form {
+    top: 61%;
+    margin-bottom: 10vh;
+}
+
+.Register-page {
+	height: 100%;
+}

@@ -1,0 +1,130 @@
+input[type=text]:not(#displayName):not(.input), select {
+    background: url("img/mouse_left_click.png") .2em .3em no-repeat, -webkit-linear-gradient(top, #f7f7f8, #fff);
+    background: url("img/mouse_left_click.png") .2em .3em no-repeat, linear-gradient(180deg, #f7f7f8 0, #fff);
+}
+
+input[type=text]:not(.input), select {
+    left: 20%;
+    top: 25%;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #000;
+    text-align: center
+}
+
+input[type=text]:not(#displayName):focus {
+    background: url("img/enter.png") 33.5em .3em no-repeat, -webkit-linear-gradient(top, #f7f7f8, #fff);
+    background: url("img/enter.png") 33.5em .3em no-repeat, linear-gradient(180deg, #f7f7f8 0, #fff)
+}
+
+input[type=email], input[type=password], .input, select {
+    width: 100%;
+    padding: 1vh 0;
+    margin: 1% 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #000;
+    text-align: center;
+}
+
+button[type=submit] {
+    width: 100%;
+    background-color: #ff8a3c;
+    color: #fff;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    font-size: 1.5em;
+}
+
+button[type=submit]:hover {
+    background-color: #c4682b;
+    -webkit-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    transform: scale(1.01)
+}
+
+#login span {
+    font-size: 15vh;
+}
+
+#registerlink {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    text-align: center;
+    display: block;
+    float: none
+}
+
+#registerlink:hover {
+    color: gold;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: transparent
+}
+
+#login-icons {
+    text-align: center
+}
+
+#facebook-login,
+#google-login {
+    background-color: transparent;
+    display: block;
+    width: 50%
+}
+
+.LoginPage,
+.Register-page {
+    text-align: center;
+    background: url("img/concert-stage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 100vh;
+    color: #fcf8e3;
+}
+
+.AccountSettingsPage label,
+.LoginPage label,
+.Register-page label {
+    font-size: 3vh;
+    margin: 10px;
+    text-shadow: 0 3px 0 #8e4600, 0 14px 10px #000, 0 24px 2px rgba(0, 0, 0, .1), 0 34px 30px rgba(0, 0, 0, .1);
+    font-family: Ubuntu, sans-serif
+}
+
+.login-container, .Register-form {
+    border-radius: 5px;
+    background-color: rgba(40, 10, 9, .7);
+    padding: 20px;
+    display: inline-block;
+    top: 45%;
+    width: 350px;
+}
+
+.App-logo {
+    -webkit-animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-intro {
+    font-size: large
+}
